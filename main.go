@@ -3,7 +3,7 @@ package main
 import (
 	"log"
 	"os"
-	"github.com/DanteLorenzo/hpng/hidepng"
+	"github.com/DanteLorenzo/hpng/core"
 	"github.com/urfave/cli/v2"
 )
 
@@ -55,9 +55,9 @@ func main() {
 		SkipFlagParsing:           false,
 		Action: func(cCtx *cli.Context) error {
 			if !reverse {
-				hpng.CreateHPNG(sourceImage, hiddeFile)
+				core.CreateHPNG(sourceImage, hiddeFile)
 			} else {
-				hpng.ReverseHPNG(sourceImage, hiddeFile)
+				core.ReverseHPNG(sourceImage, hiddeFile)
 			}
 			return nil
 		},

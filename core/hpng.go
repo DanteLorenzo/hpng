@@ -1,4 +1,5 @@
-package hpng
+// Package core - write and extract file to png
+package core
 
 /////////////////////////////////////////////
 //                  PNG                  ///
