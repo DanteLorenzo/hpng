@@ -1,4 +1,4 @@
-module hpng
+module github.com/DanteLorenzo/hpng
 
 go 1.21.0
 
