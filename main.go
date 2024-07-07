@@ -3,7 +3,7 @@ package main
 import (
 	"log"
 	"os"
-	"hpng/hidepng"
+	"github.com/DanteLorenzo/hpng/hidepng"
 	"github.com/urfave/cli/v2"
 )
 
